@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OnlineShop_Subscriber
+Bundle-SymbolicName: OnlineShop_Subscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: onlineshop_subscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: OnlineShop.Subscriber
+Import-Package: com.kids.publisher,
+ com.mens.publisher,
+ com.shoes.publisher,
+ com.womens.publisher,
+ org.osgi.framework;version="1.10.0"
+

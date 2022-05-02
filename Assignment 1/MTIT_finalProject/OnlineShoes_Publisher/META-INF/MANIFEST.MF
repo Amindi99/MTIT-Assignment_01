@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OnlineShoes_Publisher
+Bundle-SymbolicName: OnlineShoes_Publisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.shoes.publisher.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: OnlineShoes.Publisher
+Export-Package: com.shoes.publisher
+Import-Package: org.osgi.framework;version="1.10.0"
